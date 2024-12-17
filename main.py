@@ -86,7 +86,7 @@ def send_photo_with_caption(chat_id, index):
 
     photo_path, caption = photos[index]
 
-    with open('./.venv/imagine/1r.jpeg', 'rb') as photo_file:
+    with open('./imagine/1r.jpeg', 'rb') as photo_file:
         bot.send_photo(chat_id, photo_file, caption=caption)
 
 
