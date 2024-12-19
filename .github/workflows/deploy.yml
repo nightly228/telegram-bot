@@ -23,5 +23,5 @@ name: Deploy to Railway
          - name: Deploy to Railway
            run: railway up
            env:
-             RAILWAY_TOKEN: ${{ secrets.rlw }}
-             TELEGRAM_BOT_TOKEN: ${{ secrets.bt }}
+             RAILWAY_TOKEN: ${{ secrets.RLW }}
+             TELEGRAM_BOT_TOKEN: ${{ secrets.BT }}
